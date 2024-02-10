@@ -44,7 +44,7 @@ const Invitado = () => {
     }
 
     const test = () => {
-      alert(`${fullName} ha confirmado su asistencia con ${counter} acompañantes`)
+      alert(`${fullName} ha confirmado su asistencia con ${counter} personas`)
     }
 
 
