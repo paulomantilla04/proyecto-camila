@@ -9,7 +9,7 @@ const AppRouter = () => {
     <Router>
         <Routes>
             <Route path='/' element={<Start/>}></Route>
-            <Route path='/invitado/:nombre' element={<MainApp/>}></Route>
+            <Route path=':nombre' element={<MainApp/>}></Route>
         </Routes>
     </Router>
     </>
