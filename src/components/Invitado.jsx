@@ -43,6 +43,10 @@ const Invitado = () => {
       plusOnes: {counter}
     }
 
+    const test = () => {
+      alert(`${fullName} ha confirmado su asistencia con ${counter} acompañantes`)
+    }
+
 
   return (
     <div className='w-[20rem] h-[23rem] bg-[#EFF0F1] p-5 shadow-lg'>
@@ -54,7 +58,7 @@ const Invitado = () => {
             <button onClick={handleIncrement} className='bg-[#ffffff] px-2 py-2 rounded-lg shadow-md transition-all duration-300 hover:scale-90'><IoMdAdd/></button>
         </div>
         <p className="font-primary text-sm">No. acompañantes</p>
-        <button onClick={()=>console.log(data)} className='bg-[#797E84] px-4 py-2 m-8 text-white font-primary hover:scale-90 hover:bg-[#62666A] transition-all duration-300'>CONFIRMAR</button>
+        <button onClick={test} className='bg-[#797E84] px-4 py-2 m-8 text-white font-primary hover:scale-90 hover:bg-[#62666A] transition-all duration-300'>CONFIRMAR</button>
     </div>
   )
 }
